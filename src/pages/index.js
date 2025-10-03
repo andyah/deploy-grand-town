@@ -359,19 +359,6 @@ export default function Index() {
                 <h2 className="typography__Heading-fvecw2-0 style__Title-sc-1gltwbs-1 dNrHTQ jhBuUk">
                   Nuestra Ubicación
                 </h2>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="ubicacion" className="box__Box-sc-3l6bf7-0 style__Contact-sc-1gltwbs-0 kdbiMz cZeuRh">
-        <div className="container">
-          <div className="justify-content-center text-center row">
-            <div className="col-xl-12 col-md-10 col-10">
-              <div className="box__Box-sc-3l6bf7-0 style__Box-sc-1gltwbs-8 PFIcc">
-                <h2 className="typography__Heading-fvecw2-0 style__Title-sc-1gltwbs-1 dNrHTQ jhBuUk">
-                  Nuestra Ubicación
-                </h2>
                 <p
                   className="typography__Paragraph-fvecw2-1 style__Text-sc-3gn3eb-1 dIgLCt fYhGAX"
                   style={{ textAlign: "center" }}
