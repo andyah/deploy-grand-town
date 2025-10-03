@@ -358,73 +358,7 @@ export default function Index() {
       {/** FIN CONTACTO */}
 
       {/** FOOTER */}
-      <div id="footer" classNameName="box__Box-sc-3l6bf7-0 style__Footer-sc-13f7rrl-0 kdbiMz ETfrT">
-        <div className="container">
-          <div className="box__Box-sc-3l6bf7-0 style__Box-sc-13f7rrl-14 jSuCSf">
-            <div className="justify-content-center row">
-              <div className="col-lg-4 col-md-10 col-xs-10 col-10">
-                <div className="box__Box-sc-3l6bf7-0 style__Widgets-sc-13f7rrl-1 kdbiMz footer-widgets footer-widgets--l7">
-                  <div className="box__Box-sc-3l6bf7-0 style__Box-sc-13f7rrl-14 bbRAuk logo-footer"><a href="/#"><img
-                    src={locationImage}
-                    alt="logo" /></a></div>
-                </div>
-              </div>
-              <div className="col-md-4 col-xs-6 col-xs-6 col-10">
-                <div className="box__Box-sc-3l6bf7-0 style__Widgets-sc-13f7rrl-1 kdbiMz">
-                  <div className="typography__Heading-fvecw2-0 style__Title-sc-13f7rrl-4 knBbjW jtRPCq">Contacto</div>
-                  <ul
-                    className="box__Box-sc-3l6bf7-0 style__Address-sc-13f7rrl-6 kdbiMz iGVbcm widgets-address list-unstyled">
-                    <li className="box__Box-sc-3l6bf7-0 style__AddressItem-sc-13f7rrl-7 kdbiMz iIjDPS list-items"><i
-                      className="fa fa-map-marker-alt"></i><span className="address">Dirección:</span><span>Prol. 5 de Mayo
-                        3121,<br /> Col Ex-Hacienda de Tarango,<br /> Álvaro Obregón, CDMX</span></li>
-                    <li className="box__Box-sc-3l6bf7-0 style__AddressItem-sc-13f7rrl-7 kdbiMz iIjDPS list-items"><i
-                      className="fab fa-whatsapp"></i><span>Whatsapp: <br className="d-block" /></span>
-                      <div><a href="tel:5554068105" className="ms-3">55 5406 8105</a><br /><a href="tel:5554068958"
-                        className="ms-3">55 5406 8958</a></div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-xl-2 offset-xl-1 offset-xs-1 col-xs-5 col-10">
-                <div className="row">
-                  <div className="col-md-4 col-xs-6 col-6">
-                    <div className="box__Box-sc-3l6bf7-0 style__Widgets-sc-13f7rrl-1 kdbiMz">
-                      <div className="typography__Heading-fvecw2-0 style__Title-sc-13f7rrl-4 knBbjW jtRPCq">Menu</div>
-                      <ul
-                        className="box__Box-sc-3l6bf7-0 style__List-sc-13f7rrl-8 kdbiMz htqXyU widgets-list list-unstyled">
-                        <li className="box__Box-sc-3l6bf7-0 style__ListItems-sc-13f7rrl-9 kdbiMz jcrujf list-items"><a
-                          href="#proyecto">Proyecto</a></li>
-                        <li className="box__Box-sc-3l6bf7-0 style__ListItems-sc-13f7rrl-9 kdbiMz jcrujf list-items"><a
-                          href="#departamentos">Departamentos</a></li>
-                        <li className="box__Box-sc-3l6bf7-0 style__ListItems-sc-13f7rrl-9 kdbiMz jcrujf list-items"><a
-                          href="#amenidades">Amenidades</a></li>
-                        <li className="box__Box-sc-3l6bf7-0 style__ListItems-sc-13f7rrl-9 kdbiMz jcrujf list-items"><a
-                          href="#oficinas">Oficinas</a></li>
-                        <li className="box__Box-sc-3l6bf7-0 style__ListItems-sc-13f7rrl-9 kdbiMz jcrujf list-items"><a
-                          href="#contacto">Contacto</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="justify-content-center row">
-            <div className="col-lg-12 col-xl-12 col-md-10 col-xs-10 col-10">
-              <p className="typography__Paragraph-fvecw2-1 style__Text-sc-13f7rrl-5 itQMoM iBwawu">
-                Los proyectos, diseños, superficies, decorados, plantas tipo, imágenes y todo lo que se muestra podrían
-                sufrir modificaciones sin previo aviso. No contribuye un compromiso, obligación u oferta comercial
-                alguna.
-              </p>
-              <div className="box__Box-sc-3l6bf7-0 style__Copyright-sc-13f7rrl-12 kdbiMz hrfpZw">
-                <div className="box__Box-sc-3l6bf7-0 style__CopyrightText-sc-13f7rrl-13 kdbiMz khwCSU">© 2021 Grand Tower
-                  Centenario | Todos los derechos reservados <a className="aviso" href="/aviso">Aviso de
-                    privacidad</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
       {/** FIN FOOTER */}
     </>
   )
