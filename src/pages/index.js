@@ -1,5 +1,6 @@
 import React from "react"
 import PortfolioDetails from "../components/PorftfolioDetails"
+import ImageSection from "../components/ImageSection"
 import Contact from "../components/Contact"
 import Amenidades from "../components/Amenidades"
 
