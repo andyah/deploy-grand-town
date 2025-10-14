@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://tusitio.netlify.app`, // puedes dejarlo genérico o cambiarlo luego por tu dominio real
+    siteUrl: `https://tusitio.netlify.app`, // cambia luego por tu dominio real
   },
-  // pathPrefix: `/`, // importante para que las rutas de estilos y assets funcionen en Netlify
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
@@ -15,4 +14,14 @@ module.exports = {
     },
     `gatsby-plugin-netlify`, // necesario para manejar rutas y estilos correctamente
   ],
-}
+};
+
+// 🔧 Este bloque va fuera del module.exports
+exports.onCreateWebpackConfig = ({ actions, getConfig }) => {
+  const config = getConfig();
+
+  // Evita errores con mini-css-extract-plugin en Netlify
+  config.cache = false;
+
+  actions.replaceWebpackConfig(config);
+};
